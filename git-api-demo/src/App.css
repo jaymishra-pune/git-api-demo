@@ -19,6 +19,70 @@
   color: white;
 }
 
+.repository-details {  
+  text-align: left;        
+}
+
+.org-details {  
+  float: left;
+}
+
+.org-details ul {
+  position: relative;
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+.org-details ul li {
+    position: relative;
+    display: block; 
+    margin-top: 15px;       
+    padding: 5px;
+    float: left;
+}
+
+.avatar-wrapper {
+  position: relative;
+  width: 10%;
+  display: block;
+  float: left;
+}
+
+.user-details {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;          
+}
+
+.org-details, .user-details {
+  width: 50%;
+}
+
+.org-details img, .user-details img {
+    width: 50px;
+    position: relative;
+    float: left;
+}
+
+.info-wrapper {
+  position: relative;
+  width: 90%;
+  display: block;
+  float: right;
+}
+
+.info-wrapper span {
+  padding-left: 10px; 
+}
+
+.info-wrapper span.desc {
+  clear: both;
+  display: block;
+}
 .App-link {
   color: #61dafb;
 }
